@@ -21,7 +21,7 @@ if st.session_state.show_intro:
     lottie_intro = load_lottiefile("neural.json")
     splash = st.empty()
     with splash.container():
-        st.markdown("<h1 style='text-align:center;'>WELCOME to Ollama chat 💬</h1>", unsafe_allow_html=True)
+        st.markdown("<h1 style='text-align:center;'>WELCOME to Ollama agent 💬</h1>", unsafe_allow_html=True)
         st_lottie(lottie_intro, height=350, speed=1.0, loop=True)
         time.sleep(3)
     splash.empty()
