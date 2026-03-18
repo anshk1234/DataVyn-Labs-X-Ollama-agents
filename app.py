@@ -455,11 +455,12 @@ with st.sidebar:
         st.session_state.chats[st.session_state.current_chat] = []
         st.rerun()
     if st.button("Sign out", use_container_width=True):
-        st.session_state.auth         = False
-        st.session_state.api_key      = ""
-        st.session_state.chats        = {"Chat 1": []}
-        st.session_state.current_chat = "Chat 1"
-        st.rerun()
+        st.session_state.clear()
+        st.markdown(
+            '<meta http-equiv="refresh" content="0; url=/">',
+            unsafe_allow_html=True,
+        )
+        st.stop()
 
     st.divider()
 
