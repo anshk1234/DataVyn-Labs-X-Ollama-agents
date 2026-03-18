@@ -1,7 +1,7 @@
 # DataVyn Labs · AI Agent
 
 <p align="center">
-  <img src="logo.png" width="280" alt="DataVyn Labs">
+  <img src="logo.png" width="350" alt="DataVyn Labs">
 </p>
 
 <p align="center">
