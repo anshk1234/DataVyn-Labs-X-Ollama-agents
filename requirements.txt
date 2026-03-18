@@ -1,6 +1,0 @@
-streamlit
-ollama
-datetime
-streamlit-lottie
-pandas
-
