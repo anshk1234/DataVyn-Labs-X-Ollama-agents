@@ -18,6 +18,8 @@
 
 <img width="1536" height="904" alt="ollama datavyn" src="https://github.com/user-attachments/assets/f346d9a5-fb3d-4549-95a0-29a18258c13d" />
 
+Live App: [datavyn-labs-x-ollama-agents.streamlit.app](https://datavyn-labs-x-ollama-agents.streamlit.app)
+
 
 ## Features
 
