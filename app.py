@@ -334,7 +334,7 @@ CLOUD_MODELS = {
 
 # Fixed: concise, on-point responses — balanced temperature, 600 token cap
 TEMPERATURE = 0.6
-MAX_TOKENS  = 1200
+MAX_TOKENS  = 1600
 SYS_INSTR   = (
     "You are a helpful AI assistant. "
     "Always write complete, finished responses — never leave a sentence or thought unfinished. "
